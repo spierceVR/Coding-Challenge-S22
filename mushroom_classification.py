@@ -69,13 +69,8 @@ from tensorflow.keras import layers, Sequential, callbacks
 
 input_shape = [X_train.shape[1]]
 model = keras.Sequential([
-    layers.BatchNormalization(input_shape=input_shape),
-    layers.Dense(256, activation='relu'),
-    layers.BatchNormalization(),
-    layers.Dropout(0.3),
+    layers.Dense(256, activation='relu', input_shape=input_shape),
     layers.Dense(256, activation='relu'),    
-    layers.BatchNormalization(),
-    layers.Dropout(0.3),
     layers.Dense(1, activation='sigmoid'),
 ])
 
@@ -108,12 +103,12 @@ history_df = pd.DataFrame(history.history)
 history_df.loc[0:, ['loss', 'val_loss']].plot()
 history_df.loc[0:, ['binary_accuracy', 'val_binary_accuracy']].plot()
 
-print(("Best Validation Loss: {:0.4f}" +\
-      "\nBest Validation Accuracy: {:0.4f}")\
+print(("Best Validation Loss: {:0.5f}" +\
+      "\nBest Validation Accuracy: {:0.5f}")\
       .format(history_df['val_loss'].min(), 
               history_df['val_binary_accuracy'].max())
     )
     
 plt.show()
 
-# model.save('saved_model/my_model')
+model.save('saved_model/my_model')
