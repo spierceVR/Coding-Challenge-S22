@@ -52,3 +52,6 @@ Resources used:
   - Keras/Tensorflow [docs](https://www.tensorflow.org/api_docs/python/tf/keras/Model)
   - Scikit-Learn [docs](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html?highlight=onehotencoder#sklearn.preprocessing.OneHotEncoder)
   - Kaggle [Introduction to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
+
+Results:
+ ![Epoch vs Classification Accuracy](https://github.com/spierceVR/Coding-Challenge-S22/blob/main/Figure_2.png)
