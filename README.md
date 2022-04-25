@@ -35,4 +35,20 @@ Regardless if you can or cannot answer the question, provide a short explanation
 
 ## Neural Network (using Keras/TensorFlow)
 
-Model details: 
+Model details:
+  - keras.Sequential
+  - adam optimizer function 
+    - chosen because it's general purpose/ works well on a lot of dl problems, and has adaptive learning rate which simplified things for me
+  - cross entropy loss function
+    - standard for binary classification problems
+
+Libraries used:
+  - Keras/Tensorflow for the actual model  
+  - Matplotlib for graphing the training results
+  - Scikit-learn for data preprocessing ( BinaryEncoding of the class column, OneHotEncoding of the categorical data columns, training/testing splits )
+  - Pandas for data manipulation (reading the csv, input/output separation, selecting training history data to plot)
+
+Resources used: 
+  - Keras/Tensorflow [docs](https://www.tensorflow.org/api_docs/python/tf/keras/Model)
+  - Scikit-Learn [docs](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html?highlight=onehotencoder#sklearn.preprocessing.OneHotEncoder)
+  - Kaggle [Introduction to Deep Learning](https://www.kaggle.com/learn/intro-to-deep-learning)
