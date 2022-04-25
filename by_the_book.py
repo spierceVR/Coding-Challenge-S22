@@ -12,7 +12,7 @@ plt.rc('animation', html='html5')
 
 # Load the dataset
 import pandas as pd
-shrooms = pd.read_csv('./input/mushrooms.csv')
+shrooms = pd.read_csv('./mushrooms.csv')
 
 
 # Binary encoding on class column
@@ -116,4 +116,4 @@ print(("Best Validation Loss: {:0.4f}" +\
     
 plt.show()
 
-# model.save('saved_model/my_model')
+model.save('saved_model/my_model')
