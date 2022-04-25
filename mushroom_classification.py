@@ -111,4 +111,4 @@ print(("Best Validation Loss: {:0.5f}" +\
     
 plt.show()
 
-model.save('saved_model/my_model')
+# model.save('saved_model/my_model')
