@@ -59,7 +59,7 @@ Regardless if you can or cannot answer the question, provide a short explanation
 #### Results:
 - **Best Validation Loss: 0.00008**
 - **Best Validation Accuracy: 1.00000**
-- 
+####
 ![Epoch vs Classification Accuracy](https://github.com/spierceVR/Coding-Challenge-S22/blob/main/Figure_2.png)
 ![Epoch vs Cross Entropy Loss](https://github.com/spierceVR/Coding-Challenge-S22/blob/main/Figure_1.png)
 
