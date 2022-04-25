@@ -27,7 +27,7 @@ preprocessor = make_column_transformer(
     (transformer_cat, features_cat)
 )
 
-dataToFit = pd.read_csv("./input/mushrooms.csv")
+dataToFit = pd.read_csv("./mushrooms.csv")
 dataToFit.pop('class')
 preprocessor = preprocessor.fit(dataToFit)
 

@@ -2,7 +2,7 @@ import pandas as pd
 from IPython.display import display
 
 #import csv as a pd dataframe
-mr = pd.read_csv('./input/mushrooms.csv')
+mr = pd.read_csv('./mushrooms.csv')
 display(mr.head())
 
 #copy dataframe
