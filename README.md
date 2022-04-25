@@ -31,8 +31,8 @@ Submissions will be evaluated holistically and based on a combination of effort,
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
 
-## SOLUTION:
+# SOLUTION:
 
-# Neural Network (using Keras/TensorFlow)
+## Neural Network (using Keras/TensorFlow)
 
 Model details: 
