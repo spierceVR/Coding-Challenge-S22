@@ -59,5 +59,5 @@ print(prediction[0], "  classification: ", prediction_class(prediction[0][0]))
 
 
 # print(model.summary())
-# from keras.utils.vis_utils import plot_model
-# plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
+from keras.utils.vis_utils import plot_model
+plot_model(model, to_file='model_plot.png', show_shapes=True, show_layer_names=True)
