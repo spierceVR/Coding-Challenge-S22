@@ -43,6 +43,8 @@ Regardless if you can or cannot answer the question, provide a short explanation
     - standard for binary classification problems
   - I also tried using batch normalization and dropout layers but they didn't provide a noticeable benefit to speed or accuracy so I removed them later to simplify the model.
 
+#### Model diagram:
+![Keras Generated Model Plot](https://github.com/spierceVR/Coding-Challenge-S22/blob/main/model_plot.png)
 
 #### Libraries used:
   - Keras/Tensorflow for the actual model  
@@ -64,6 +66,3 @@ Regardless if you can or cannot answer the question, provide a short explanation
 ![Epoch vs Classification Accuracy](https://github.com/spierceVR/Coding-Challenge-S22/blob/main/Figure_2.png)
 ![Epoch vs Cross Entropy Loss](https://github.com/spierceVR/Coding-Challenge-S22/blob/main/Figure_1.png)
 
-
-#### Model diagram:
-![Keras Generated Model Plot](https://github.com/spierceVR/Coding-Challenge-S22/blob/main/model_plot.png)
