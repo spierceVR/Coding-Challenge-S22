@@ -41,6 +41,7 @@ Regardless if you can or cannot answer the question, provide a short explanation
     - chosen because it's general purpose/ works well on a lot of dl problems, and has adaptive learning rate which simplified things for me
   - cross entropy loss function
     - standard for binary classification problems
+  - I also tried using batch normalization and dropout layers but they didn't provide a noticeable benefit to speed or accuracy so I removed them later to simplify the model.
 
 
 #### Libraries used:
